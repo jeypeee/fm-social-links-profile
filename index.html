@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --font-inter: "Inter", sans-serif;
+        --color-clifford: #da373d;
+        --color-background: hsl(0 0% 8%);
+        --color-green: hsl(75, 94%, 57%);
+        --color-white: hsl(0, 0%, 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-background font-inter">
+    <div class="w-screen h-screen flex justify-center items-center">
+      <main
+        class="bg-[hsl(0,0%,12%)] w-[375px] p-8 flex flex-col rounded-md items-center"
+      >
+        <img
+          src="./assets/images/avatar-jessica.jpeg"
+          alt=""
+          class="w-24 h-24 rounded-full"
+        />
+
+        <h1 class="text-white font-bold text-center mt-6 text-[23px]">
+          Jessica Randall
+        </h1>
+        <h2 class="text-green text-center text-[14px] mt-2">
+          London, United Kingdom
+        </h2>
+        <p class="text-white text-center mt-6 text-[hsl(0,0%,20%)]">
+          "Front-end developer and avid reader"
+        </p>
+        <div class="mt-5">
+          <button
+            type="button"
+            class="text-white bg-[hsl(0,0%,20%)] rounded-sm w-full py-2"
+          >
+            GitHub
+          </button>
+          <button
+            type="button"
+            class="text-white bg-[hsl(0,0%,20%)] mt-4 rounded-sm w-full py-2"
+          >
+            Frontend Mentor
+          </button>
+          <button
+            type="button"
+            class="text-white bg-[hsl(0,0%,20%)] mt-4 rounded-sm w-full py-2"
+          >
+            LinkedIn
+          </button>
+          <button
+            type="button"
+            class="text-white bg-[hsl(0,0%,20%)] mt-4 rounded-sm w-full py-2"
+          >
+            Twitter
+          </button>
+          <button
+            type="button"
+            class="text-white bg-[hsl(0,0%,20%)] mt-4 rounded-sm w-full py-2"
+          >
+            Instagram
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
